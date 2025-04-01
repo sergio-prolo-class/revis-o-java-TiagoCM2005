@@ -16,6 +16,6 @@ public class questao_2 {
 		ano_atual = in.nextInt(); // 2025 
 		
 		System.out.printf("%s, possui %d anos.\n", name, ano_atual - ano);
-
+		in.close();
 	}
 }
